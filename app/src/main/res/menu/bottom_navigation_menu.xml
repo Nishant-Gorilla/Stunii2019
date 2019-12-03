@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home_o"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/navigation_jobs"
+        android:icon="@drawable/near_me_o"
+        android:title="@string/nearme" />
+
+    <item
+        android:id="@+id/navigation_cat"
+        android:icon="@drawable/categories_o"
+        android:title="@string/categories" />
+    <item
+        android:id="@+id/navigation_stuid"
+        android:icon="@drawable/stu_id_o"
+        android:title="@string/stuid" />
+    <item
+        android:id="@+id/navigation_demand"
+        android:icon="@drawable/jobs_o"
+        android:title="@string/jobs" />
+
+
+
+
+</menu>

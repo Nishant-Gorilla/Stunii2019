@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_mydeals"
+        android:icon="@drawable/demand"
+        android:title="@string/demand" />
+    <item
+        android:id="@+id/nav_hotdeals"
+        android:visible="false"
+        android:icon="@drawable/hot_deals"
+        android:title="@string/hotdeals" />
+    <item
+        android:id="@+id/nav_facebook"
+        android:icon="@drawable/fb"
+        android:title="@string/facebook" />
+
+    <item
+        android:id="@+id/nav_twitter"
+        android:icon="@drawable/twitter"
+        android:title="@string/twitter" />
+    <item
+        android:id="@+id/nav_instagram"
+        android:icon="@drawable/insta"
+        android:title="@string/instagram" />
+    <item
+        android:id="@+id/nav_tersm"
+        android:icon="@drawable/terms_of_service"
+        android:title="@string/Terms" />
+    <item
+        android:id="@+id/nav_privacy"
+        android:icon="@drawable/privacy_policy"
+        android:title="@string/privacy" />
+    <item
+        android:id="@+id/nav_cancel"
+        android:icon="@drawable/premium"
+        android:title="@string/cancelPremium" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/logout"
+        android:title="@string/logout" />
+</menu>

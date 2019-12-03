@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="obllivionsoft.djole.nis.rs.stusdeals.view.activity.SignuoneActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1.4"
+            android:orientation="vertical"
+            android:layout_height="0dp">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:id="@+id/iv_back"
+                android:layout_marginLeft="@dimen/_13sdp"
+                android:background="@drawable/back"
+                android:layout_height="wrap_content" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/logosignup"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/owl_gif"
+                android:layout_gravity="center"
+                android:id="@+id/iv_gif"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1.5"
+            android:layout_marginLeft="@dimen/_12sdp"
+            android:layout_marginTop="-45dp"
+            android:layout_marginRight="@dimen/_12sdp"
+            android:orientation="vertical"
+            android:layout_height="0dp">
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                app:cardElevation="@dimen/_10sdp"
+                app:cardCornerRadius="@dimen/_5sdp"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+                    <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextViewBold
+                        android:layout_width="wrap_content"
+                        android:text="@string/Login"
+                        android:textColor="@color/colorBlack"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:textSize="@dimen/_30sdp"
+                        android:layout_height="wrap_content" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+                        android:layout_height="wrap_content">
+
+                        <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyEditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/educationalemail"
+                            android:textSize="@dimen/_16sdp"
+                            android:id="@+id/et_email"
+                            android:backgroundTint="@color/colorPrimary"
+                            android:textColor="@color/colorBlack"
+                            android:inputType="textPersonName|textCapWords" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            app:passwordToggleEnabled="true"
+                            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+
+                            <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyEditTextBold
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/_2sdp"
+                                android:id="@+id/et_pwd"
+                                android:backgroundTint="@color/colorPrimary"
+                                android:hint="@string/password"
+                                android:inputType="textPassword"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="@dimen/_16sdp" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:gravity="end"
+                        android:layout_height="wrap_content">
+                        <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextViewBold
+                            android:layout_width="wrap_content"
+                            android:text="@string/forgot"
+                            android:id="@+id/tv_forgot_pwd"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/_16sdp"
+                            android:padding="@dimen/_2sdp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextViewBold
+                        android:layout_width="match_parent"
+                        android:text="@string/logincap"
+                        android:gravity="center"
+                        android:id="@+id/tv_login"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:textSize="@dimen/_16sdp"
+                        android:textColor="@color/colorWhite"
+                        android:padding="@dimen/_10sdp"
+                        android:background="@drawable/boarder_next"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_height="wrap_content">
+            <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextView
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/colorBlack"
+                android:text="Don't have an account?"
+                android:layout_height="wrap_content" />
+            <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextView
+                android:layout_width="wrap_content"
+                android:text="@string/signup"
+                android:id="@+id/tv_signup"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

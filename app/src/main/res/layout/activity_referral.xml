@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/referral_image"
+    tools:context=".view.activity.ReferralActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:id="@+id/image_cross"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:background="@drawable/close"
+                android:layout_height="wrap_content" />
+
+
+            <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextViewBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                 android:text="STUNII"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_20sdp" />
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextViewBold
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_16sdp"
+                android:textAlignment="center"
+                android:id="@+id/tv_txt"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:layout_height="wrap_content">
+            <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextViewBold
+                android:layout_width="wrap_content"
+                android:text="Select Referral"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/colorBlack"
+                android:layout_height="wrap_content"/>
+
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:layout_width="match_parent"
+                android:id="@+id/sp_referral"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_14sdp"></androidx.appcompat.widget.AppCompatSpinner>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/colorPrimary" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_marginTop="@dimen/_100sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextViewBold
+                android:layout_width="match_parent"
+                android:text="SUBMIT"
+                android:textStyle="bold"
+                android:padding="@dimen/_10sdp"
+                android:id="@+id/tv_submit"
+                android:background="@drawable/boarder_next"
+                android:textSize="@dimen/_16sdp"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content" />
+            <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextViewBold
+                android:layout_width="match_parent"
+                android:text="SKIP THIS STEP"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:padding="@dimen/_10sdp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/tv_skip"
+                android:background="@drawable/boarder_next"
+                android:textSize="@dimen/_16sdp"
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

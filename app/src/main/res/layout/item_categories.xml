@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/_2sdp"
+    android:layout_height="@dimen/_160sdp"
+    android:background="@color/colorBlack">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="100dp"
+        android:minHeight="@dimen/_500sdp"
+        android:background="@drawable/img1"
+        android:scaleType="fitXY">
+    </androidx.appcompat.widget.AppCompatImageView>
+
+    <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextViewBold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="23sp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:text="Food &amp;Drinks"
+        android:shadowColor="@color/colorPrimary"
+        android:shadowDy="-5.0"
+        android:shadowDx="-5.0"
+        android:shadowRadius="8"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/textViewCategoryName"/>
+
+</RelativeLayout>

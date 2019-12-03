@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="obllivionsoft.djole.nis.rs.stusdeals.view.activity.StripeActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/ll_cross"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/image_cross"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/close"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/ll_stripe_image"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_below="@+id/ll_cross"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:background="@drawable/payment"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_below="@+id/ll_stripe_image"
+        android:orientation="vertical"
+        android:id="@+id/ll_card_details"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_height="wrap_content">
+   <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextView
+       android:layout_width="wrap_content"
+       android:text="@string/cardnumber"
+       android:textSize="@dimen/_16sdp"
+       android:textColor="@color/colorBlack"
+       android:layout_height="wrap_content" />
+
+            <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyEditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="4242424242424242"
+                android:id="@+id/et_card_number"
+                android:textSize="@dimen/_14sdp"
+                android:backgroundTint="@color/colorYellow"
+                android:textColor="@color/colorBlack"
+                android:inputType="textPersonName|textCapWords" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/expiration"
+                    android:textSize="@dimen/_16sdp"
+                    android:textColor="@color/colorBlack"
+                    android:layout_height="wrap_content" />
+
+                <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="06/45"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:id="@+id/et_expiration"
+                    android:textSize="@dimen/_14sdp"
+                    android:backgroundTint="@color/colorYellow"
+                    android:textColor="@color/colorBlack"
+                    android:inputType="textPersonName|textCapWords" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@color/colorYellow"
+                    android:layout_height="1dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/cvv"
+                    android:textSize="@dimen/_16sdp"
+                    android:textColor="@color/colorBlack"
+                    android:layout_height="wrap_content" />
+
+                <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyEditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="***"
+                    android:id="@+id/et_cvv"
+                    android:textSize="@dimen/_14sdp"
+                    android:backgroundTint="@color/colorYellow"
+                    android:textColor="@color/colorBlack"
+                    android:inputType="numberPassword" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:id="@+id/ll_package"
+        android:layout_below="@+id/ll_card_details"
+        android:background="@color/colorYellow"
+        android:layout_height="wrap_content">
+        <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextViewBold
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="@dimen/_14sdp"
+            android:id="@+id/tv_price"
+            android:textColor="@color/colorBlack"
+            android:padding="@dimen/_10sdp"
+            android:text="ANNUAL DEAL PACKAGE £ 9.99 YEARLY"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/ll_Confirm_payment"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_package"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp">
+
+        <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="You are about to unlock a volt of insane offers ,discount and freebies.By confirming payment you are agreeing to our terms of service.This is an annual rolling subscription you will be charged on a yearly basis unless cancelled"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_upgrade"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@color/colorPrimary"
+        android:gravity="center">
+
+        <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextViewBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/confirmpayment"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_16sdp" />
+    </LinearLayout>
+
+</RelativeLayout>

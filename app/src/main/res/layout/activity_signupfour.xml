@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg4"
+    tools:context="obllivionsoft.djole.nis.rs.stusdeals.view.activity.SignuoneActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1.4"
+            android:orientation="vertical"
+            android:layout_height="0dp">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:id="@+id/iv_back"
+                android:layout_marginLeft="@dimen/_13sdp"
+                android:background="@drawable/back"
+                android:layout_height="@dimen/_25sdp" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/logosignup"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/create_pass"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1.1"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:orientation="vertical"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    app:passwordToggleEnabled="true"
+                    app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+
+                    <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyEditTextBold
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_2sdp"
+                        android:id="@+id/et_pwd"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:hint="@string/enterpassword"
+                        android:inputType="textPassword"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/_16sdp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_height="wrap_content">
+
+                <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I have read and agree to Stunii's Terms and Conditions"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_16sdp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="2"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:text="Please accept to continue "
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="end"
+                        android:id="@+id/switch_button"
+                        android:buttonTint="@color/colorPrimary"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_height="wrap_content">
+                <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I want to receive freebies and flash offers via email"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_16sdp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup">
+
+                    <RadioButton
+                        android:id="@+id/radioNope"
+                        android:buttonTint="@color/colorPrimary"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nope"
+                        android:checked="false"
+                        android:textSize="20dp" />
+
+                    <RadioButton
+                        android:id="@+id/radioYeah"
+                        android:layout_marginLeft="@dimen/_16sdp"
+                        android:layout_width="fill_parent"
+                        android:buttonTint="@color/colorPrimary"
+                        android:layout_height="wrap_content"
+                        android:text="Hell Yeah!"
+                        android:checked="false"
+                        android:textSize="20dp" />
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight=".8"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:orientation="vertical"
+            android:layout_height="0dp">
+            <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextViewBold
+                android:layout_width="match_parent"
+                android:text="@string/next"
+                android:id="@+id/tv_next"
+                android:gravity="center"
+                android:textSize="@dimen/_14sdp"
+                android:padding="@dimen/_10sdp"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/boarder_next"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:id="@+id/ll_login"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_height="wrap_content">
+                <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextView
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="@color/colorBlack"
+                    android:text="@string/alreadyaccount"
+                    android:layout_height="wrap_content" />
+                <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/loginsignup"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/progress4"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

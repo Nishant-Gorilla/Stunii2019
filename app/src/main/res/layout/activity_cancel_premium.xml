@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorBlack"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button android:layout_width="match_parent"
+        android:background="@color/colorBlack"
+        android:layout_height="60dp"
+        android:text="Premium Cancel"
+        android:textColor="#fff"
+        android:textSize="22dp"
+        />
+
+
+    <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextView
+        android:text="How do I cancel my Stunii monthly deal package ?"
+        android:layout_width="wrap_content"
+        android:textSize="22dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/tv"
+        android:layout_height="wrap_content"
+        />
+
+
+
+
+</LinearLayout>

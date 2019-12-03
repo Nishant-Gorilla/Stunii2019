@@ -1,0 +1,243 @@
+<resources>
+    <string name="app_name">Stunii</string>
+    <string name="join">JOIN</string>
+    <string name="login">LOGIN</string>
+
+    //signup
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="dob">D.O.B</string>
+    <string name="next">NEXT</string>
+    <string name="alreadyaccount">Already have an account?</string>
+    <string name="loginsignup">Login</string>
+    <string name="educationalemail">Educational Email Address</string>
+    <string name="personalemail">Personal Email Address</string>
+    <string name="phone">Phone Number</string>
+    <string name="dategrd">Graduation Date</string>
+    <string name="enterpassword">Please enter a password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="vegan">Vegan</string>
+    <string name="Veggie">Veggie</string>
+    <string name="night">Nightlife</string>
+    <string name="pub">Pub</string>
+    <string name="meat">Meat Eater</string>
+    <string name="meal">Meal</string>
+    <string name="cozy">Cozy</string>
+    <string name="gym">At Gym</string>
+    <string name="library">At Library</string>
+    <string name="gaming">Gaming</string>
+    <string name="outdoor">Outdoors</string>
+
+    //login
+    <string name="Login">Login</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="logincap">LOGIN</string>
+    <string name="signup">Sign Up</string>
+
+
+    //home
+    <string name="home">Home</string>
+    <string name="jobs">Jobs</string>
+    <string name="categories">Categories</string>
+    <string name="stuid">Stu ID</string>
+    <string name="demand">Demand a Deal</string>
+    <string name="apply">APPLY NOW</string>
+
+    //demand
+    <string name="yourcity">Your City,Your Deals</string>
+    <string name="City">City</string>
+    <string name="organisation">Organisation</string>
+    <string name="typedeal">Type of Deal</string>
+    <string name="demanddeal">DEMAND YOUR DEAL</string>
+
+    //premium
+    <string name="PremiumText">Get unlimited access to our vault of insane discounts!</string>
+    <string name="hellyeah">HELL YEAH!UPGRADE ME</string>
+
+
+    //outout Activity
+
+    <string name="Outout">OutOut</string>
+
+    //drawer
+
+    <string name="nearme">Near Me</string>
+    <string name="hotdeals">Hot Deals</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+    <string name="Terms">Terms of Service</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="logout">Logout</string>
+    <string name="cancelPremium">Cancel Premium</string>
+
+    //forgot passoword
+
+    <string name="forgotpwd">Forgot your password?No problem,enter your personal email and we shall send you instructions to recover your password!</string>
+
+
+    //paymentActivity
+    <string name="cardnumber">Card Number</string>
+    <string name="expiration">Expiration Date</string>
+    <string name="cvv">CVV</string>
+    <string name="confirmpayment">CONFIRM PAYMENT</string>
+
+
+    //Error message
+
+    <string name="err_msg_forgot_pwd">Please Enter Valid  Email.</string>
+    <string name="err_msg_email">Please Enter Valid  Email.</string>
+    <string name="err_msg_first_name">Please Enter Valid First Name.</string>
+    <string name="err_msg_last_name">Please Enter Valid Last Name.</string>
+    <string name="err_msg_password">Please Enter Valid  Password.</string>
+    <string name="err_msg_dob">Please Enter Date of Birth.</string>
+    <string name="err_msg_edu_email">Please Enter Valid Educational Email.</string>
+    <string name="err_msg_all_required">All Fields are Required.</string>
+    <string name="err_msg_terms">Please accept terms and conditions</string>
+    <string name="err_msg_freebies">Please accept you want to recieve freebies or not</string>
+    <string name="err_msg_selcet">Please Select one of above option</string>
+    <string name="err_msg_personal_email">Please Enter Valid Personal  Email .</string>
+    <string name="err_msg_number">Please Enter Correct Phone Number.</string>
+
+    <string name="err_msg_Restaurant_name">Please Enter Restaurant Name.</string>
+    <string name="err_msg_password_confirm">Confirm Password should be same as Password</string>
+    <string name="err_msg_address">Please Enter Address</string>
+    <string name="err_msg_phone_number">Please Enter Phone Number</string>
+
+    <string name="err_msg_add_menu">Please Enter a Menu name.</string>
+    <string name="err_msg_add_Item">Please Enter a Item name.</string>
+    <string name="err_msg_add_Price">Please Enter a Price.</string>
+
+    //demand error message
+    <string name="err_msg_city">Please Enter a City.</string>
+    <string name="err_msg_org">Please Enter a Organization Name.</string>
+    <string name="err_msg_deal_type">Please Enter a Deal Type.</string>
+
+    <string-array name="educational">
+        <item>Educational Institute</item>
+        <item>Liverpool Hope University</item>
+        <item>Liverpool John Moores University</item>
+        <item>Liverpool School of Tropical Medicine</item>
+        <item>Royal Northern College of Music</item>
+        <item>The Liverpool Institute for Performing Arts</item>
+        <item>The Manchester Metropolitan University</item>
+        <item>The University of Bolton</item>
+        <item>The University of Central Lancashire</item>
+        <item>The University of Lancaster</item>
+        <item>The University of Liverpool</item>
+        <item>The University of Manchester</item>
+        <item>The University of Salford</item>
+        <item>University of Chester</item>
+        <item>University of Cumbria</item>
+        <item>Futureworks</item>
+        <item>Hyde Community College</item>
+        <item>Central Manchester College</item>
+        <item>Salford City College</item>
+        <item>Manchester College Of Engineering</item>
+        <item>Abbey Gate College</item>
+        <item>The Hathershaw College Of Technology</item>
+        <item>Brownlow Fold Community Learning Centre</item>
+        <item>Bury College</item>
+        <item>South Cheshire College</item>
+        <item>St Mary Catholic College Wallasey</item>
+        <item>Sylvia Hodge College</item>
+        <item>Archbishop Beck</item>
+        <item>St Cuthbert Catholic Community College</item>
+        <item>Stockport College</item>
+        <item>Cardinal Newman College</item>
+        <item>Oldham Sixth Form College</item>
+        <item>St Mary College</item>
+        <item>Liverpool City College</item>
+        <item>Avenue International College</item>
+        <item>South Sefton Sixth Form College</item>
+        <item>West Cheshire College</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="Courses">
+        <item>Course</item>
+        <item>A-levels</item>
+        <item>Accounting and Finance</item>
+        <item>Aeronautical and Manufacturing Engineering</item>
+        <item>Agriculture and Forestry</item>
+        <item>American Studies</item>
+        <item>Anatomy and Physiology</item>
+        <item>Anthropology</item>
+        <item>Archaeology</item>
+        <item>Architecture</item>
+        <item>Art and Design</item>
+        <item>Aural and Oral Sciences</item>
+        <item>Biological Sciences</item>
+        <item>Building</item>
+        <item>Business and Management Studies</item>
+        <item>Celtic Studies</item>
+        <item>Chemical Engineering</item>
+        <item>Chemistry</item>
+        <item>Civil Engineering</item>
+        <item>Classics and Ancient History</item>
+        <item>Communication and Media Studies</item>
+        <item>Complementary Medicine</item>
+        <item>Computer Science</item>
+        <item>Creative Writing</item>
+        <item>Criminology</item>
+        <item>Dentistry</item>
+        <item>Biological Sciences</item>
+        <item>Drama, Dance and Cinematics</item>
+        <item>East and South Asian Studies</item>
+        <item>Economics</item>
+        <item>Education</item>
+        <item>Electrical and Electronic Engineering</item>
+        <item>English</item>
+        <item>Fashion</item>
+        <item>Film Making</item>
+        <item>Food Science</item>
+        <item>Forensic Science</item>
+        <item>French</item>
+        <item>Geography and Environmental Sciences</item>
+        <item>Geology</item>
+        <item>General Engineering</item>
+        <item>German</item>
+        <item>History</item>
+        <item>History of Art, Architecture and Design</item>
+        <item>Hospitality, Leisure, Recreation amd Tourism</item>
+        <item>Iberian Languages/Hispanic Studies</item>
+        <item>Italian</item>
+        <item>Land and Property Management</item>
+        <item>Law</item>
+        <item>Librarianship and Information Management</item>
+        <item>Linguistics</item>
+        <item>Marketing</item>
+        <item>Materials Technology</item>
+        <item>Mathematics</item>
+        <item>Mechanical Engineering</item>
+        <item>Medical Technology</item>
+        <item>Medicine</item>
+        <item>Middle Eastern and African Studies</item>
+        <item>Music</item>
+        <item>Nursing</item>
+        <item>Occupational Therapy</item>
+        <item>Optometry, Ophthalmology and Orthoptics</item>
+        <item>Pharmacology and Pharmacy</item>
+        <item>Philosophy</item>
+        <item>Physics and Astronomy</item>
+        <item>Physiotherapy</item>
+        <item>Politics</item>
+        <item>Psychology</item>
+        <item>Robotics</item>
+        <item>Russian and East European Languages</item>
+        <item>Social Policy</item>
+        <item>Social Work</item>
+        <item>Sociology</item>
+        <item>Sports Science</item>
+        <item>Theology and Religious Studies</item>
+        <item>Town and Country Planning and Landscape Design</item>
+        <item>Veterinary Medicine</item>
+        <item>Youth Work</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>

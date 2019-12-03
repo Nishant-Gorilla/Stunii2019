@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "99699073153",
+    "firebase_url": "https://stunii-deals.firebaseio.com",
+    "project_id": "stunii-deals",
+    "storage_bucket": "stunii-deals.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99699073153:android:32d078a8435e2a8d",
+        "android_client_info": {
+          "package_name": "obllivionsoft.djole.nis.rs.stusdeals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99699073153-sehqlblaffpspltnlqdrkigvugla8ok7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "obllivionsoft.djole.nis.rs.stusdeals",
+            "certificate_hash": "d8f6ad18841cada5300cc2d8c8981a5372523657"
+          }
+        },
+        {
+          "client_id": "99699073153-fhm16uq82lpgocpq3mlrrana43a76cbe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "obllivionsoft.djole.nis.rs.stusdeals",
+            "certificate_hash": "d1509bd9db6c54480b3fed8a7f41b6fdce0c8bf8"
+          }
+        },
+        {
+          "client_id": "99699073153-9e12q319cheic4tdk5t9nge0h83qrcp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR_zP53HFV4mUovopskjzXTWYtMoH1xfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99699073153-9e12q319cheic4tdk5t9nge0h83qrcp4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "99699073153-jm8k69r550ki09ftkpjcqqmbk8e2d12a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.stunii.stunii",
+                "app_store_id": "1281476467"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

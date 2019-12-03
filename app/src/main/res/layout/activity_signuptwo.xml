@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context="obllivionsoft.djole.nis.rs.stusdeals.view.activity.SignuoneActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1.5"
+            android:orientation="vertical"
+            android:layout_height="0dp">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:id="@+id/iv_back"
+                android:layout_marginLeft="@dimen/_13sdp"
+                android:background="@drawable/back"
+                android:layout_height="@dimen/_25sdp" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/logosignup"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/get_cracking"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight=".9"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:orientation="vertical"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+                    android:layout_height="wrap_content">
+
+                    <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyEditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/educationalemail"
+                        android:textSize="@dimen/_14sdp"
+                        android:id="@+id/et_edu_email"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:textColor="@color/colorBlack"
+                        android:inputType="textPersonName|textCapWords" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+                    android:layout_height="wrap_content">
+
+                    <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyEditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/personalemail"
+                        android:textSize="@dimen/_14sdp"
+                        android:id="@+id/et_personal_email"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:textColor="@color/colorBlack"
+                        android:inputType="textPersonName|textCapWords" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+                    android:layout_height="wrap_content">
+
+                    <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyEditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/phone"
+                        android:id="@+id/et_phone_number"
+                        android:textSize="@dimen/_14sdp"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:textColor="@color/colorBlack"
+                        android:inputType="number" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight=".8"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:orientation="vertical"
+            android:layout_height="0dp">
+            <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextViewBold
+                android:layout_width="match_parent"
+                android:text="@string/next"
+                android:id="@+id/tv_next"
+                android:gravity="center"
+                android:textSize="@dimen/_14sdp"
+                android:padding="@dimen/_10sdp"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/boarder_next"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:id="@+id/ll_login"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_height="wrap_content">
+                <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextView
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="@color/colorBlack"
+                    android:text="@string/alreadyaccount"
+                    android:layout_height="wrap_content" />
+                <obllivionsoft.djole.nis.rs.stusdeals.controller.customViews.MyTextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/loginsignup"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/progress2"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
